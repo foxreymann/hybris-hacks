@@ -11,8 +11,8 @@ if [ "$1" == "ant" ]; then
 		echo "running ant clean all updatesystem -Dtenant=master"
 		ant clean all updatesystem -Dtenant=master > /tmp/ant.log
 	else
-		echo "running ant clean all" > /tmp/ant.log
-		ant clean all
+		echo "running ant clean all"
+		ant clean all > /tmp/ant.log
 	fi
 fi
 
