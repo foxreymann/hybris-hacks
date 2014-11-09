@@ -5,7 +5,7 @@ var links = {
 	de: 'http://asicsde.local:9001',
 	es: 'http://asicses.local:9001',
 	fr: 'http://asicsfr.local:9001',
-	us: 'http://asics.local:9001/asicsstorefront',
+	us: 'http://asics.local:9001',
 	jp: 'http://asicsjp.local:9001'
 	},
 	test: {
@@ -28,8 +28,9 @@ var links = {
 	us: 'http://www.hybris.ecstage-ac.asics.com'
 	},
 	live: {
-		us: '',
-		au: 'http://www.asics.com.au'
+		uk: 'http://www.asics.co.uk',
+		au: 'http://www.asics.com.au',
+		fr: 'http://www-origin.asics.com/fr/fr-fr'
 	}
 }
 
