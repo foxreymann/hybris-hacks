@@ -1,7 +1,8 @@
 #!/bin/bash
-mysql.server start &&\
-cd ~/amazeasicsglobal/solr &&\
-./solr.sh > /tmp/solr.log 2>&1 &\
+mysql.server start
+cd ~/amazeasicsglobal/solr 
+./solr.sh > /tmp/solr.log 2>&1 &
+sleep 2
 cd ~/amazeasicsglobal
 
 if [ "$1" == "ant" ]; then
@@ -16,5 +17,5 @@ if [ "$1" == "ant" ]; then
 fi
 
 echo "starting hybris"
-nohup ./hybrisserver.sh > /tmp/hybris.log 2>&1
+nohup ./hybrisserver.sh > /tmp/hybris.log 2>&1 &
 echo "hybris started"
