@@ -1,4 +1,4 @@
-#!/usr/local/bin/node
+#!/usr/bin/env node
 var links = {
 	local: {
 	uk: 'http://asicsuk.local:9001',
