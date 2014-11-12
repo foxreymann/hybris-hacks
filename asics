@@ -25,6 +25,7 @@ var links = {
 	},
 	ecstage: {
 	uk: 'http://www.hybris.ecstage-uk.asics.com',
+	au: 'http://www.hybris.ecstage-au.asics.com',
 	de: 'http://www.hybris.ecstage.asics.com/de/de-de',
 	us: 'http://www.hybris.ecstage-ac.asics.com'
 	},

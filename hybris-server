@@ -1,3 +1,0 @@
-nohup ./hybrisserver.sh > /tmp/hybris.log &
-tail -f /tmp/hybris.log
-ps -ef | grep hybisserver
