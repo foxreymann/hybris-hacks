@@ -1,6 +1,6 @@
 #!/bin/bash
 mysql.server start
-cd ~/amazeasicsglobal/solr 
+cd ~/amazeasicsglobal/solr
 ./solr.sh > /tmp/solr.log 2>&1 &
 sleep 2
 cd ~/amazeasicsglobal
