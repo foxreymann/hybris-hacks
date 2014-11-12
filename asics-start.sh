@@ -9,13 +9,12 @@ if [ "$1" == "ant" ]; then
 	. ./setantenv.sh
 	if [ "$2" == "up" ]; then
 		echo "running ant clean all updatesystem -Dtenant=master"
-		ant clean all updatesystem -Dtenant=master > /tmp/ant.log
+		ant clean all updatesystem -Dtenant=master
 	else
 		echo "running ant clean all"
-		ant clean all > /tmp/ant.log
+		ant clean all
 	fi
 fi
 
 echo "starting hybris"
-nohup ./hybrisserver.sh > /tmp/hybris.log 2>&1 &
-echo "hybris started"
+./hybrisserver.sh
